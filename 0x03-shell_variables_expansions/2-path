@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=$PATH:/action
+tr ':' '\n' <<< "$PATH" | wc -l
